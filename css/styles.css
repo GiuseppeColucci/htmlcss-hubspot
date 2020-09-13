@@ -17,7 +17,7 @@ nav{
 }
 .box-2{
   height: 100%;
-  
+
   width: 1200px;
   margin:auto;
 }
@@ -84,16 +84,29 @@ header{
   position:absolute;
 
 }
-.xxx{
-  height: 80px;
-  width: 100%;
-  background-color: #93dbd2;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
+
 /* fine header */
 /* inizio main */
 main{
-  height: 100px;
-  background-color: blue;
+  height:5000px;
+  background-color:blue;
+}
+.xxx {
+  height:13.5%;
+  background-color: #93dbd2;
+  border: 5px solid black;
+}
+section{
+  height: 20%;
+  background-color: red;
+  width: 1200px;
+  margin: auto;
+}
+
+.text-2{
+  width: 63%;
+  background-color: #fdf2ee;
+  margin-left: 19%;
+  text-align: center;
+  margin: auto;
 }

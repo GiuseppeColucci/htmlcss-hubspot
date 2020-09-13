@@ -26,6 +26,23 @@ nav{
 .col.rigth{
   float: right;
 }
+#log-in{
+  height: 35px;
+  width: 100px;
+  background-color: #f5f8fa;
+  border-radius: 5px;
+  border: 1px solid #ff7a59;
+  color:#ff7a59;
+}
+.gethubfree{
+  height: 35px;
+  width: 100px;
+  background-color:#ff7a59;
+  border-radius: 5px;
+  border: 1px solid #ff7a59;
+  color:#fff;
+}
+
 .col.rigth.link ul li{
 display: inline-block;
 list-style: none;

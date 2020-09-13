@@ -89,7 +89,7 @@ header{
 /* inizio main */
 main{
   height:5000px;
-  background-color:blue;
+  background-color:#fdf2ee;
 }
 .xxx {
   height:13.5%;
@@ -109,4 +109,9 @@ section{
   margin-left: 19%;
   text-align: center;
   margin: auto;
+}
+.conteiner{
+  width: 100%;
+  height: 40%;
+  background-color: yellow;
 }

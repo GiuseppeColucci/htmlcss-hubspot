@@ -27,7 +27,24 @@ nav{
   float: right;
 }
 /* fine prima barra di navigazione */
+/* inizio della seconda */
 header{
   height: 50px;
   background-color: green;
+}
+/* fine della seconda */
+/* inizio box consfondo */
+.box-img{
+  height: 600px;
+  background-color: blue;
+}
+.sfondo{
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  background-color: yellow;
+}
+.text{
+  width: 30%;
+  background-color: orange;
 }

@@ -41,6 +41,7 @@ header{
 .box-img{
   height: 600px;
   background-color:#fdf2ee;
+  position: relative;
 }
 .sfondo{
   height: 100%;
@@ -48,9 +49,12 @@ header{
   margin: auto;
   /* background-color: yellow; */
   background-image: url(../img/jumbotron.png);
-  background-position: 30%;
+  background-position: right center;
+  right:-150px;
+  position: absolute;
 }
 .text{
   width: 30%;
-  background-color: orange;
+  background-color: #fdf2ee;
+  margin-left: 10%;
 }

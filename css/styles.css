@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 /* prima barra di navigazione */
+
 nav{
   height: 50px;
   background-color: green;
@@ -26,3 +27,7 @@ nav{
   float: right;
 }
 /* fine prima barra di navigazione */
+header{
+  height: 50px;
+  background-color: green;
+}

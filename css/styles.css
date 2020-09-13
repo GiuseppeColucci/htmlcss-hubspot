@@ -1,0 +1,28 @@
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* prima barra di navigazione */
+nav{
+  height: 50px;
+  background-color: green;
+}
+.box{
+  height: 100%;
+  background-color: red;
+  width: 1200px;
+  margin:auto;
+}
+.col{
+  height: 100%;
+  width: 25%;
+  background-color: pink;
+}
+.col.left{
+  float: left;
+}
+.col.rigth{
+  float: right;
+}
+/* fine prima barra di navigazione */

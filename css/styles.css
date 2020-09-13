@@ -18,7 +18,7 @@ nav{
 .col{
   height: 100%;
   width: 25%;
-  background-color: pink;
+
 }
 .col.left{
   float: left;

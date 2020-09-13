@@ -47,22 +47,23 @@ header{
   height: 100%;
   width: 80%;
   margin: auto;
-  /* background-color: yellow; */
   background-image: url(../img/jumbotron.png);
   background-position: right center;
-  right:-20px;
+  background-size: cover;
+  right:-10px;
   position: absolute;
 }
+
 .text{
   width: 23%;
   background-color: #fdf2ee;
-  margin-left: 10%;
+  margin-left: 19%;
   position:absolute;
 
 }
 .xxx{
   height: 80px;
-  background-color: #93dbd2;
+  width: 100%;background-color: #93dbd2;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 

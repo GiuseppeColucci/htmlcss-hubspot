@@ -50,13 +50,20 @@ header{
   /* background-color: yellow; */
   background-image: url(../img/jumbotron.png);
   background-position: right center;
-  right:-70px;
+  right:-20px;
   position: absolute;
 }
 .text{
-  width: 30%;
+  width: 23%;
   background-color: #fdf2ee;
   margin-left: 10%;
   position:absolute;
+
+}
+.xxx{
+  height: 80px;
+  background-color: #93dbd2;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 
 }

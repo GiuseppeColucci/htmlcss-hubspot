@@ -7,11 +7,11 @@
 
 nav{
   height: 50px;
-  background-color: green;
+  background-color: #f5f8fa;
 }
 .box{
   height: 100%;
-  background-color: red;
+  background-color: #f5f8fa;
   width: 1200px;
   margin:auto;
 }
@@ -26,23 +26,29 @@ nav{
 .col.rigth{
   float: right;
 }
+.col.rigth.link ul li{
+display: inline-block;
+list-style: none;
+}
 /* fine prima barra di navigazione */
 /* inizio della seconda */
 header{
   height: 50px;
-  background-color: green;
+
 }
 /* fine della seconda */
 /* inizio box consfondo */
 .box-img{
   height: 600px;
-  background-color: blue;
+  background-color:#fdf2ee;
 }
 .sfondo{
   height: 100%;
   width: 80%;
   margin: auto;
-  background-color: yellow;
+  /* background-color: yellow; */
+  background-image: url(../img/jumbotron.png);
+  background-position: 30%;
 }
 .text{
   width: 30%;

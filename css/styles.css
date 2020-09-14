@@ -116,3 +116,15 @@ section{
   background-color: yellow;
   border-radius: 5px;
 }
+.logo-2{
+  height: 46%;
+  width: 28%;
+  background-color: #fff;
+}
+.text-3{
+  float: right;
+}
+.list ul li{
+  display: inline-block;
+  list-style: none;
+}

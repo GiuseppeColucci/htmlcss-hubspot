@@ -20,6 +20,9 @@ ul.list-inline li{
   padding: 0 10px;
   color:#33475b;
 }
+.link{
+  float: right;
+}
 a{
   text-decoration: none;
 }

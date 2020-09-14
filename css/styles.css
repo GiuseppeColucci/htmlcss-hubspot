@@ -4,6 +4,43 @@
   box-sizing: border-box;
 }
 /* prima barra di navigazione */
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+/* UTILITY */
+.clear::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* menu inline */
+ul.list-inline li{
+  display:inline-block;
+  padding: 0 10px;
+  color:#33475b;
+}
+a{
+  text-decoration: none;
+}
+.color-blue a{
+  color: #33475b;
+}
+.btn{
+  display: inline-block;
+  font-size: 17px;
+  line-height: 30px;
+  color:#fe775a;
+  border:1px solid#fe775a;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-orange{
+  background-color:#fe775a;
+  color: #fff;
+}
+
+
 
 nav{
   height: 50px;

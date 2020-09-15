@@ -7,9 +7,9 @@
 body{
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-
-
 }
+
+
 /* UTILITY */
 .clear::after{
   content: '';
@@ -22,6 +22,12 @@ ul.list-inline li{
   padding: 0 10px;
   color:#33475b;
 }
+ul.circle-orange li i{
+  color:#fe775a;
+}
+.text-center{
+  text-align: center;
+}
 .link{
   float: right;
 }
@@ -29,6 +35,7 @@ a{
   text-decoration: none;
 }
 h1,h2,h4,h5,p{
+  margin-bottom: 30px;
   color: #33475b;
 }
 .color-blue a{
@@ -172,5 +179,8 @@ section{
   background-color: #fff;
 }
 .text-3{
+  width: 57%;
+  text-align:left;
   float: right;
+
 }

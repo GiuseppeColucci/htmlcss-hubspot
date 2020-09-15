@@ -29,6 +29,9 @@ ul.list-inline li{
   padding: 0 10px;
   color:#33475b;
 }
+ul.list-semplice li{
+  list-style: none;
+}
 ul.circle-orange li i{
   color:#fe775a;
 }
@@ -160,15 +163,15 @@ main{
 
 section{
   height: 20%;
-
   width: 1200px;
   margin: auto;
   background-color: #f5f8fa
 }
 
+
 .text-2{
   width: 63%;
-  background-color: #f5f8fa
+  background-color: #f5f8fa;
   margin-left: 19%;
   text-align: center;
   margin: auto;
@@ -181,12 +184,8 @@ section{
   border: 1px solid black;
 
 }
-
-
-
-
 .logo-2{
-  /* height: 46%; */
+
   float: left;
   width: 25%;
   padding-left: 30px;
@@ -203,4 +202,21 @@ section{
   float: right;
   padding: 96px;
 
+}
+.blocco{
+  height: 80%;
+  background-color:#f5f8fa;
+}
+.contenitore{
+  height: 100%;
+  width: 30%;
+  background-color: #fff;
+  margin: auto;
+  border: 1px solid black;
+}
+.contenitore-1{
+  float: left;
+}
+.contenitore-2{
+  float:right;
 }

@@ -229,7 +229,7 @@ section{
   float:right;
 }
 .grid{
-  height:20%;
+  /* height:20%; */
   background-color: #00aab8;
   width: 100%;
 }

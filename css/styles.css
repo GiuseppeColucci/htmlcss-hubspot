@@ -16,6 +16,13 @@ body{
   display: table;
   clear: both;
 }
+.box-2{
+  line-height: 80px;
+}
+.box-2 img{
+  vertical-align: middle;
+}
+
 /* menu inline */
 ul.list-inline li{
   display:inline-block;
@@ -58,10 +65,11 @@ h1,h2,h4,h5,p{
 
 
 nav{
-  height: 50px;
   background-color: #f5f8fa;
 }
+
 .box{
+  line-height: 80px;
   height: 100%;
   background-color: #f5f8fa;
   width: 1200px;
@@ -72,6 +80,10 @@ nav{
 
   width: 1200px;
   margin:auto;
+}
+.search{
+  color:#93dbd2;
+
 }
 .col{
   height: 100%;
@@ -162,25 +174,33 @@ section{
   margin: auto;
 }
 .conteiner{
-  width: 100%;
+  width:100%;
   height: 40%;
   background-color:#fff;
   border-radius: 5px;
   border: 1px solid black;
 
 }
-.logo{
 
 
-}
+
+
 .logo-2{
-  height: 46%;
-  width: 28%;
+  /* height: 46%; */
+  float: left;
+  width: 25%;
+  padding-left: 30px;
+  text-align:center;
   background-color: #fff;
 }
+.clck{
+  padding-left: 7px;
+  margin-top: 36px;
+}
 .text-3{
-  width: 57%;
+  width: 75%;
   text-align:left;
   float: right;
+  padding: 96px;
 
 }
